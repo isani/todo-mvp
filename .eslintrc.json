@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "jest/globals": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "jest",
+        "jsx-a11y"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "standard",
+        "plugin:react/recommended",
+        "plugin:jest/recommended",
+        "plugin:jsx-a11y/recommended"
+    ]
+}
